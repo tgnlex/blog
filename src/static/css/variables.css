@@ -1,0 +1,11 @@
+:root {
+  
+  --fomt-stack: system-ui Avenir Helvetica sans-serif;
+  --font-mono: Roboto;
+  --font-sans: sans-serif;
+  --font-pop: Poppins;
+
+  --site-width: 100vw;
+  --site-offset: 5%;
+  --layout-width calc(var(--site-width) - var(--site-offset));
+}

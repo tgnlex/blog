@@ -1,0 +1,29 @@
+
+
+#navbar {
+  --nav--radius: 0.4rem;
+  --nav--border: 2px solid black;
+  --nav--width: var(--layout--width);
+  --nav--pad: 0.25em;
+  --nav--list--width: calc(var(--layout--width) - var(--site-offset));
+  --nav--list--gap: 1.5vw;
+  border-radius: var(--nav--radius);
+  border: var(--nav--border);
+  width: var(--layout--width);
+  padding: var(--nav--pad);
+  & .list {
+    width: var(--nav--list--width);
+    gap: var(--nav--list--gap);
+    & .item:has(.link) {
+      --item--pad: 0.25em 0.5em;
+      padding: var(--item--pad);
+      border: var(--nav--border);
+      & .link {
+        --link--fs: 1.5em;
+s      font-size: var(--link--fs);
+      }
+    }
+    
+  }
+}
+
