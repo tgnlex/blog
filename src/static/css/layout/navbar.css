@@ -20,7 +20,8 @@
       border: var(--nav--border);
       & .link {
         --link--fs: 1.5em;
-s      font-size: var(--link--fs);
+        font-size: var(--link--fs);
+        text-decoration: none;
       }
     }
     

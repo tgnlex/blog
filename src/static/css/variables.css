@@ -1,11 +1,22 @@
 :root {
-  
+  --bg-1: rgb(0, 0, 0);
+  --bg-2: rgba(235, 255, 255, 0.95);
+  --bg-3: rgba(200, 200, 200, 0.95);
+
+  --fg-1: rgb(255, 255, 255);
+  --fg-2: rebeccapurple;
+  --fg-3: coral;
+
   --fomt-stack: system-ui Avenir Helvetica sans-serif;
   --font-mono: Roboto;
   --font-sans: sans-serif;
   --font-pop: Poppins;
 
+  --content-max-w: 45ch;
   --site-width: 100vw;
   --site-offset: 5%;
-  --layout-width calc(var(--site-width) - var(--site-offset));
+  --header-width calc(var(--site-width) - var(--site-offset));
+  --footer-width calc(var(--site-width) - var(--site-offset));
+
+
 }

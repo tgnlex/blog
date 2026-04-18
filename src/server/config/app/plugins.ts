@@ -2,6 +2,7 @@ import express from 'express';
 import cookieParser from 'cookie-parser'
 import cookieSession from 'cookie-session';
 import helmet from 'helmet';
+import cors from 'cors';
 /*** BODY PARSER **/
 const BODY_PARSER = [   
   express.urlencoded({ extended: true}),
@@ -15,7 +16,8 @@ const plugins = [
   ...BODY_PARSER,
   cookieParser(),
 //  cookieSession(),
-  helmet()
+  helmet(),
+  cors()
 ]
 
 

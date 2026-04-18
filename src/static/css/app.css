@@ -1,6 +1,5 @@
 @import "./variables.css";
 @import "./base.css";
-@import "./layout.css";
-@import "./utilities.css";
-@import "./component/navbar.css";
-@import "./component/page.css";
+@import "./layout/_index.css";
+@import "./components/posts.css";
+@import "./modules/_index.css";

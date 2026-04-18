@@ -1,21 +1,18 @@
 async function fetchPosts() {
   const response = await fetch('/api/posts');
-  return response.json();
+  const data = await response.json();
+  return data;
 }
 
-const item = (post) => `
-  <li class="item post--item" key="${post.id}">
-    <a class="link post--link" href="/api/posts/${post.id}">
-      ${post.title}
-    </a>
-  </li>`
 
-
-function previews() {
+async function previews() {
   const $posts = document.querySelector('#posts');
   const posts = await fetchPosts();
   posts.forEach((post) => {
-    $posts.appendChild(item(post));
+    const item = document.createElement('li');
+    item.setAttribute('class', 'item card preview');
+    item.innerHTML = `<a class="link" href="/blog/${post.id}">${post.title}</a>`;
+    $posts.appendChild(item);
   })
 }
 

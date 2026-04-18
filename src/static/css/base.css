@@ -15,3 +15,11 @@
 a {
   font-size: 1.4em;
 }
+
+button {
+  transition: border-color 0.25s;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+}
+
+
