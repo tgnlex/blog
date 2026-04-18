@@ -2,12 +2,14 @@ import Application from './modules/bootstrap.ts'
 import engine from './config/engine.ts';
 import config from './config/index.ts';
 import router from './routes/views.ts'
+import api from './routes/api.ts';
+
 
 const app = new Application(config);
 app.bootstrap();
 engine(app.server);
 
-
+app.server.use('/api', api);
 app.server.use(router);
 
 

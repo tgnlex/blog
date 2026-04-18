@@ -1,0 +1,17 @@
+
+
+<html>
+  <head>
+    <title>{% block title%}{% endblock %}</title>
+  </head>
+  <body>
+    <header class="row">
+        <!-- TODO: Implement the functionality and style for these btns --->
+        <button>Go Back</button>
+        {% block title %} {% endblock %}
+        <button>Next Post</button>
+    </header>
+    {% block main %} {% endblock %}
+    {% include "includes/footer.html" %}  
+  </body>
+</html>

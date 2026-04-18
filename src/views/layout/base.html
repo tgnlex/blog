@@ -7,11 +7,12 @@
      {% endblock %}
   </head>
   <body>
-    {% include "includes/header.njk" %}
-    {% include "includes/nav.njk" %}
+    {% include "includes/header.html" %}
+    {% include "includes/navbar.html" %}
     {% block main %}
     <!--- Child content goes here !--->
     {% endblock %}
+    {% include "includes/footer.html" %}
   </body>
 </html>
 
