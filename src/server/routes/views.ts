@@ -12,7 +12,7 @@ router.get('/blog', (req, res) => {
 });
 
 router.get('/blog/:id', (req, res) => {
-  const post: Post | undefined = posts[Number(req.params.id)];
+  const post: any = posts[Number(req.params.id) - 1];
   if (post) {
     const markdown = read(`md/${post.md}`);
     res.render('pages/post.html', {title: post.title, markdown: markdown})
