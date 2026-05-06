@@ -6,6 +6,7 @@
 .header {
   font-family: var(--font-pop);
   padding: 0.5em;
+  padding-left: 2em;
   background-color: var(--clr--rebecca--100);
   & #header--text {
     color: white;
@@ -27,6 +28,7 @@
   display: flex;
   flex-direction: row;
   gap: 3vw;
+  padding-left: 2em;
   & .link {
     color: var(--clr--white--100);
     text-decoration: none;
