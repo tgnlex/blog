@@ -3,7 +3,7 @@
 @import "./layout.css";
 
 .main {
-  background-color: var(--clr--black--100);
+  background-color: var(--clr--black--090);
   width: 60vw;
   height: 100vh;
   display: flex;

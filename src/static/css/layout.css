@@ -20,7 +20,7 @@
   align-items: center;
    width: 100vw;
   height: 100vh;
-  background-color: gray;
+  background-color: var(--clr--black--075);
 }
 #nav--list {
   
