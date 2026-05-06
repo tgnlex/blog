@@ -1,0 +1,8 @@
+
+:root {
+   /*** DEVICE SIZES ***/
+  --mobile: 600px;
+  --tablet: 720px;
+  --laptop: 920px;
+  --pc: 1200px;
+}

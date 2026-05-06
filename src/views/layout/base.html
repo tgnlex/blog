@@ -1,7 +1,7 @@
 <html lang="rm">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" type="text/css" href="/css/app.css" />
      {% block head %}
        <!--- Additional head content goes here --->
      {% endblock %}
@@ -9,9 +9,7 @@
   <body>
     {% include "includes/header.html" %}
     {% include "includes/navbar.html" %}
-    {% block main %}
-    <!--- Child content goes here !--->
-    {% endblock %}
+    <div id="page">{% block main %}{% endblock %}</div>
     {% include "includes/footer.html" %}
   </body>
 </html>

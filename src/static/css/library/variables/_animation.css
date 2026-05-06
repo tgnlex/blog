@@ -1,0 +1,6 @@
+:root {
+/*** SPIN ANIMATION ***/
+  --spin-animation: spin infinite 20s linear;
+  --spin-start: rotate(0deg);
+  --spin-end: rotate(360deg);
+}

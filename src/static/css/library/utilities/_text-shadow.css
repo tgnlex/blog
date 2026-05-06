@@ -1,0 +1,9 @@
+:root { --text-shadow: 2px 2px 3px; }
+
+.text-shadow-blue { text-shadow: var(--text-shadow) var(--clr--blue--095); }
+.text-shadow-red { text-shadow: var(--text-shadow) var(--clr--red--095); }
+.text-shadow-green { text-shadow: var(--text-shadow) var(--clr--green--095);}
+.text-shadow-black { text-shadow: var(--text-shadow) var(--clr--black--095);} 
+.text-shadow-white { text-shadow: var(--text-shadow) var(--clr--white--095);}
+.text-shadow-purple { text-shadow: var(--text-shadow) var(--clr--purple--095);}
+.text-shadow-rebecca { text-shadow: var(--text-shadow) var(--clr--rebecca--095);}

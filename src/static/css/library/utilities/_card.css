@@ -1,0 +1,14 @@
+
+
+.card {
+  --card--shadow: 4px 2px 2px var(--clr--gray--095);
+  --card--pad: 2em;
+  --card--m: auto;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  box-shadow: var(--card--shadow);
+  padding: var(--card--pad);
+  margin: var(--card--m);
+}
+

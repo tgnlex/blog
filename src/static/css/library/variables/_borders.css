@@ -1,0 +1,30 @@
+ :root {
+  /*** SOLID BORDERS ***/
+  --border--clear: 1px solid transparent;
+    
+  /*** BLACK BORDERS ***/
+  --border--sm--black: 1px solid var(--clr--black--100);
+  --border--md--black: 2px solid var(--clr--black-100);
+  --border--lg--black: 3px solid var(--clr--black-100);
+
+  --border--sm-double--black: 2px double var(--clr--black--100);
+  --border--md-double--black: 4px double var(--clr--black--100);
+  --border--lg-double--black: 6px double var(--clr--black--100);
+  --border--xl-double--black: 8px double var(--clr--black--100);
+
+    /** WHITE BORDERS **/   
+  --border--sm--white: 1px solid var(--clr--white--100);
+  --border--md--white: 2px solid var(--clr--white--100);
+  --border--lg--white: 3px solid var(--clr--white--);
+  
+  
+  /*** CLEAR BORDERS ***/
+  --border--sm--clear: 1px solid transparent;
+  --border--md--clear: 2px solid transparent;
+  --border--lg--clear: 3px solid transparent;
+
+  /*** BORDER RADIUS ***/
+  --round-corners: 0.4rem;
+  --circle: 100%
+  
+}
