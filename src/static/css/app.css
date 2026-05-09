@@ -1,6 +1,7 @@
 @import "./library/_index.css";
-@import "./base.css";
-@import "./layout.css";
+@import "./_base.css";
+@import "./_layout.css";
+@import "./pages/_index.css";
 
 .main {
   background-color: var(--clr--black--090);
@@ -9,7 +10,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 #welcome { 

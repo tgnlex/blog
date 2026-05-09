@@ -32,27 +32,27 @@
 .emerald-90 { background: var(--clr--emerald--90);}
 .rebecca-90 { background: var(--clr--rebecca--90); }
 
-.black-85 { background: var(--clr--black--90);}
-.white-85 { background: var(--clr--white--90);}
-.gray-85 { background: var(--clr--gray--95); }
-.red-85 { background: var(--clr--red--95); }
-.blue-85 { background: var(--clr--blue--95); }
-.cyan-85 { background: var(--clr--cyan--95); }
-.cherry-85 { background: var(--clr--cherry--95)}
-.green-85 {background: var(--clr--green--95) }
-.emerald-85 { background: var(--clr--emerald--95);}
-.rebecca-85 { background: var(--clr--rebecca--95); }
+.black-85 { background: var(--clr--black--85);}
+.white-85 { background: var(--clr--white--85);}
+.gray-85 { background: var(--clr--gray--85); }
+.red-85 { background: var(--clr--red--85); }
+.blue-85 { background: var(--clr--blue--85); }
+.cyan-85 { background: var(--clr--cyan--85); }
+.cherry-85 { background: var(--clr--cherry--85)}
+.green-85 {background: var(--clr--green--85) }
+.emerald-85 { background: var(--clr--emerald--85);}
+.rebecca-85 { background: var(--clr--rebecca--85); }
 
-.black-80 { background: var(--clr--black--90);}
-.white-80 { background: var(--clr--white--90);}
-.gray-80 { background: var(--clr--gray--90); }
-.red-80 { background: var(--clr--red--90); }
-.blue-80 { background: var(--clr--blue--90); }
-.cyan-80 { background: var(--clr--cyan--90); }
-.cherry-80 { background: var(--clr--cherry--90)}
-.green-80 {background: var(--clr--green--90) }
-.emerald-80 { background: var(--clr--emerald--90);}
-.rebecca-80 { background: var(--clr--rebecca--90); }
+.black-80 { background: var(--clr--black--80);}
+.white-80 { background: var(--clr--white--80);}
+.gray-80 { background: var(--clr--gray--80); }
+.red-80 { background: var(--clr--red--80); }
+.blue-80 { background: var(--clr--blue--80); }
+.cyan-80 { background: var(--clr--cyan--80); }
+.cherry-80 { background: var(--clr--cherry--80)}
+.green-80 {background: var(--clr--green--80) }
+.emerald-80 { background: var(--clr--emerald--80);}
+.rebecca-80 { background: var(--clr--rebecca--80); }
 
 
 .text-black { color: var(--clr--black--100) }
