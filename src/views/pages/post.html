@@ -1,12 +1,16 @@
-{% extends "layout/article.html" %}
+{% extends "layout/base.html" %}
 
 {% if title %}
-{% block title %}{{ title }}{% endblock%}
+{% block title %}{{ post.title }}{% endblock%}
 {% endif %}
 
 {% block main %}
   <main class="article">
-      {{ markdown }}
+    <h1>{{ post.title }}</h1>
+    <article>
+      {{ post.body }}
+    </article>
+
   </main>
 {% endblock %}
 
