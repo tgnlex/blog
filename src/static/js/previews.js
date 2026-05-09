@@ -14,7 +14,7 @@ async function setupPreviews() {
     const $item = document.createElement('li');
     $item.classList.add('preview', 'item');
     $item.setAttribute('id', 'post-preview');
-    $item.innerHTML = `<a class="link text-white" href="/posts/${post.id}">${post.title}</a>`;
+    $item.innerHTML = `<a class="link text-white" href="/blog/${post.id}">${post.title}</a>`;
     $posts.appendChild($item);
   })
 }
