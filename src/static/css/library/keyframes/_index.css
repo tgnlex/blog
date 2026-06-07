@@ -1,0 +1,12 @@
+
+@keyframes spin {
+  from {
+    transform: var(--spin-start);
+  }
+  to {
+    transform: var(--spin-end);
+  }
+}
+
+
+

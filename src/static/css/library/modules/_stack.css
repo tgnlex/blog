@@ -1,0 +1,9 @@
+
+
+.stack {
+
+  --stack-gap: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--stack-gap)
+}

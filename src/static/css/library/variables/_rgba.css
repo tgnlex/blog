@@ -13,6 +13,7 @@
   --rgb-magenta: 255, 0, 255;
   --rgb-teal: 0, 128, 128;
   --rgb-rebecca: 102, 51, 153;
+  --rgb-electric: 100, 108, 255;
   --rgb-cherry: 210, 10, 46;
   --rgb-coral: 225, 119, 93;
   --rgb-gold: 255, 215, 0;
@@ -38,7 +39,7 @@
   --clr--black--090: rgba(var(--rgb-black), var(--a-090));
   --clr--black--085: rgba(var(--rgb-black), var(--a-085));
   --clr--black--080: rgba(var(--rgb-black), var(--a-080));
-  --clr--black--075: rgba(var(--rgb-black), var(--a-075));
+  --clr--black--075: rgba(var(--rgb-black), var(--a-75));
   --clr--black--070: rgba(var(--rgb-black), var(--a-070));
   --clr--black--065: rgba(var(--rgb-black), var(--a-065));
   --clr--black--060: rgba(var(--rgb-black), var(--a-060));
@@ -111,12 +112,24 @@
   --clr--purple--090: rgba(var(--rgb-purple), var(--a-090));
   --clr--purple--085: rgba(var(--rgb-purple), var(--a-085));
   --clr--purple--080: rgba(var(--rgb-purple), var(--a-080));
+  --clr--purple--075: rgba(var(--rgb-purple), var(--a-075));
+  --clr--purple--070: rgba(var(--rgb-purple), var(--a-070));
+  --clr--purple--065: rgba(var(--rgb-purple), var(--a-065));
+  --clr--purple--060: rgba(var(--rgb-purple), var(--a-060));
+  --clr--purple--055: rgba(var(--rgb-purple), var(--a-055));
+  --clr--purple--050: rgba(var(--rgb-purple), var(--a-050));
 
   --clr--yellow--100: rgba(var(--rgb-yellow), var(--a-100));
   --clr--yellow--095: rgba(var(--rgb-yellow), var(--a-095));
   --clr--yellow--090: rgba(var(--rgb-yellow), var(--a-090));
   --clr--yellow--085: rgba(var(--rgb-yellow), var(--a-085));
   --clr--yellow--080: rgba(var(--rgb-yellow), var(--a-080)); 
+  --clr--yellow--075: rgba(var(--rgb-yellow), var(--a-075));
+  --clr--yellow--070: rgba(var(--rgb-yellow), var(--a-070));
+  --clr--yellow--065: rgba(var(--rgb-yellow), var(--a-065));
+  --clr--yellow--060: rgba(var(--rgb-yellow), var(--a-060));
+  --clr--yellow--055: rgba(var(--rgb-yellow), var(--a-055)); 
+  --clr--yellow--050: rgba(var(--rgb-yellow), var(--a-050)); 
 
   --clr--rebecca--100: rgba(var(--rgb-rebecca), var(--a-100));
   --clr--rebecca--095: rgba(var(--rgb-rebecca), var(--a-095));
@@ -129,6 +142,19 @@
   --clr--rebecca--060: rgba(var(--rgb-rebecca), var(--a-060));
   --clr--rebecca--055: rgba(var(--rgb-rebecca), var(--a-055));
   --clr--rebecca--050: rgba(var(--rgb-rebecca), var(--a-050));
+  
+  --clr--electric--100: rgba(var(--rgb-electric), var(--a-100));
+  --clr--electric--095: rgba(var(--rgb-electric), var(--a-95));
+  --clr--electric--090: rgba(var(--rgb-electric), var(--a-090));
+  --clr--electric--085: rgba(var(--rgb-electric), var(--a-085));
+  --clr--electric--080: rgba(var(--rgb-electric), var(--a-080));
+  --clr--electric--075: rgba(var(--rgb-electric), var(--a-075));
+  --clr--electric--070: rgba(var(--rgb-electric), var(--a-070));
+  --clr--electric--065: rgba(var(--rgb-electric), var(--a-065));
+  --clr--electric--060: rgba(var(--rgb-electric), var(--a-060));
+  --clr--electric--055: rgba(var(--rgb-electric), var(--a-055));
+  --clr--electric--050: rgba(var(--rgb-electric), var(--a-050));
+
 
   --clr--cherry--100: rgba(var(--rgb-cherry), var(--a-100));
   --clr--cherry--095: rgba(var(--rgb-cherry), var(--a-095));
@@ -147,6 +173,12 @@
   --clr--magenta--090: rgba(var(--rgb-magenta), var(--a-090));
   --clr--magenta--085: rgba(var(--rgb-magenta), var(--a-085));
   --clr--magenta--080: rgba(var(--rgb-magenta), var(--a-080));
+  --clr--magenta--075: rgba(var(--rgb-magenta), var(--a-075));
+  --clr--magenta--070: rgba(var(--rgb-magenta), var(--a-070));
+  --clr--magenta--065: rgba(var(--rgb-magenta), var(--a-065));
+  --clr--magenta--060: rgba(var(--rgb-magenta), var(--a-060));
+  --clr--magenta--055: rgba(var(--rgb-magenta), var(--a-055));
+  --clr--magenta--050: rgba(var(--rgb-magenta), var(--a-050));
 
   --clr--cyan--100: rgba(var(--rgb-cyan), var(--a-100));
   --clr--cyan--095: rgba(var(--rgb-cyan), var(--a-095));
@@ -165,18 +197,36 @@
   --clr--teal--090: rgba(var(--rgb-teal), var(--a-090));
   --clr--teal--085: rgba(var(--rgb-teal), var(--a-085));
   --clr--teal--080: rgba(var(--rgb-teal), var(--a-080));
+  --clr--teal--075: rgba(var(--rgb-teal), var(--a-075));
+  --clr--teal--070: rgba(var(--rgb-teal), var(--a-070));
+  --clr--teal--065: rgba(var(--rgb-teal), var(--a-065));
+  --clr--teal--060: rgba(var(--rgb-teal), var(--a-060));
+  --clr--teal--055: rgba(var(--rgb-teal), var(--a-055));
+  --clr--teal--060: rgba(var(--rgb-teal), var(--a-050));
 
   --clr--coral--100: rgba(var(--rgb-coral), var(--a-100));
   --clr--coral--095: rgba(var(--rgb-coral), var(--a-095));
   --clr--coral--090: rgba(var(--rgb-coral), var(--a-090));
   --clr--coral--085: rgba(var(--rgb-coral), var(--a-085));
   --clr--coral--080: rgba(var(--rgb-coral), var(--a-080));
+  --clr--coral--075: rgba(var(--rgb-coral), var(--a-075));
+  --clr--coral--070: rgba(var(--rgb-coral), var(--a-070));
+  --clr--coral--065: rgba(var(--rgb-coral), var(--a-065));
+  --clr--coral--060: rgba(var(--rgb-coral), var(--a-060));
+  --clr--coral--055: rgba(var(--rgb-coral), var(--a-055));
+  --clr--coral--050: rgba(var(--rgb-coral), var(--a-050));
 
   --clr--gold--100: rgba(var(--rgb-gold), var(--a-100));
   --clr--gold--095: rgba(var(--rgb-gold), var(--a-095));
   --clr--gold--090: rgba(var(--rgb-gold), var(--a-090));
   --clr--gold--085: rgba(var(--rgb-gold), var(--a-085));
   --clr--gold--080: rgba(var(--rgb-gold), var(--a-080));
+  --clr--gold--075: rgba(var(--rgb-gold), var(--a-075));
+  --clr--gold--070: rgba(var(--rgb-gold), var(--a-070));
+  --clr--gold--065: rgba(var(--rgb-gold), var(--a-065));
+  --clr--gold--060: rgba(var(--rgb-gold), var(--a-060));
+  --clr--gold--055: rgba(var(--rgb-gold), var(--a-055));
+  --clr--gold--050: rgba(var(--rgb-gold), var(--a-050));
 
   --clr--emerald--100: rgba(var(--rgb-emerald), var(--a-100));
   --clr--emerald--095: rgba(var(--rgb-emerald), var(--a-095));

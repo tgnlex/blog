@@ -1,5 +1,4 @@
 #navbar {
-
   border: 2px solid black;
 }
 
@@ -18,12 +17,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-   width: 100vw;
+  width: 100vw;
   height: 100vh;
   background-color: var(--clr--black--075);
 }
+
 #nav--list {
-  
   background-color: var(--clr--rebecca--100);
   display: flex;
   flex-direction: row;

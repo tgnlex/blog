@@ -12,9 +12,21 @@ async function setupPreviews() {
   const posts = await getPosts();
   posts.forEach((post) => {
     const $item = document.createElement('li');
-    $item.classList.add('preview', 'item');
-    $item.setAttribute('id', 'post-preview');
-    $item.innerHTML = `<a class="link text-white" href="/blog/${post.id}">${post.title}</a>`;
+    $item.classList.add('preview', 'card');
+    $item.setAttribute('id', 'post--preview');
+    $item.innerHTML = `
+      <h4 class="title text-white">
+        ${post.title}
+      </h4>
+      <p class="description text-white">
+        ${post.description}
+      </p>
+      <button class="btn">
+        <a class="btn--link" href="/blog/${post.id}">
+        Read post
+        </a>
+      </button>
+      `;
     $posts.appendChild($item);
   })
 }

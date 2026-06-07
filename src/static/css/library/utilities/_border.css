@@ -1,9 +1,7 @@
-
-.border-black-100 { border-color: var(--clr--black--100)}
-.border-white-100 { border-color: var(--clr--white--100)}
-.border-red-100 { border-color: var(--clr--red--100)}
-.border-blue-100 { border-color: var(--clr--blue--100)}
-.border-rebecca-100 { border-color: var(--clr--rebecca--100)}
+.smooth { border-radius: var(--smooth-corners); }
+.round { border-radius: var(--round-corners); }
+.extra-round { border-radius: var(--extra-round-corners); }
+.circle { border-radius: var(--circle); }
 
 .round-1 { border-radius: 0.1rem }
 .round-2 { border-radius: 0.2rem }
@@ -15,4 +13,26 @@
 .round-8 { border-radius: 0.8rem }
 .round-9 { border-radius: 0.9rem }
 .round-10 { border-radius: 1.0rem; }
-.circle { border-radius: 100%; }
+
+
+
+  .border-black { border-color: var(--clr--black--100); }
+  .border-white { border-color: var(--clr--white--100); }
+  .border-red { border-color: var(--clr--red--100); }
+  .border-blue { border-color: var(--clr--blue--100); }
+  .border-green { border-color: var(--clr--green--100); }
+  .border-purple { border-color: var(--clr--purple--100); }
+  .border-rebecca { border-color: var(--clr--rebecca--100); }
+  .border-clear { border-color: transparent; };
+  
+  .border-black-sm { border: var(--border--sm--white); }
+  .border-black-md { border: var(--border--md--white); }
+  .border-black-lg { border: var(--border--lg--white); }
+
+  .border-white-sm { border: var(--border--sm--white); }
+  .border-white-md { border: var(--border--md--white); }
+  .border-white-lg { border: var(--border--lg--white); }
+  
+  .border-clear-sm { border: var(--border--sm--clear);}
+  .border-clear-md { border: var(--border--md--clear);}
+  .border-clear-lg { border: var(--border--lg--clear);}
