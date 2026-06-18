@@ -2,31 +2,13 @@
 
 .card {
   --card--shadow: 4px 2px 2px var(--clr--gray--095);
-  --card--pad: 1rem 2rem;
+  --card--pad: 2em;
   --card--m: auto;
-  background-color: var(--clr--rebecca--080);
   display: flex;
   flex-direction: column;
   place-items: center;
   box-shadow: var(--card--shadow);
   padding: var(--card--pad);
   margin: var(--card--m);
-  min-width: 25vw;
-  @media(max-width < 700) {
-    min-width: 60vw;
-  }
-  & .title {
-    font-size: 1.6em;
-    margin-bottom: 1vh;
-  }
-  & .description {
-    margin-bottom: 2vh;
-  }
-  & .btn {
-    --btn-pad: 0.25rem;
-    width: 90%;
-    & .btn--link {
-      text-decoration: none;
-    }
-  }
 }
+

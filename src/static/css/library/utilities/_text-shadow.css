@@ -1,4 +1,3 @@
-:root { --text-shadow: 2px 2px 3px; }
 
 .text-shadow-blue { text-shadow: var(--text-shadow) var(--clr--blue--095); }
 .text-shadow-red { text-shadow: var(--text-shadow) var(--clr--red--095); 

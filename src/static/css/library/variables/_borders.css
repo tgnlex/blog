@@ -1,11 +1,12 @@
  :root {
-   /*** PRIMITIVES ***/
+ /*** PRIMITIVES ***/
    --border-sm: 1px solid;
    --border-md: 2px solid;
    --border-lg: 3px solid;
   
+   --border-double: 4px double;
+   --border-double-lg: 6px double;
    /*** BLACK BORDERS ***/
-
   --border--sm--black: var(--border-sm) var(--clr--black--100);
   --border--md--black: var(--border-md) var(--clr--black-100);
   --border--lg--black: var(--border-lg) var(--clr--black-100);

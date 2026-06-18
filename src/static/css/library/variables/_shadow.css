@@ -1,4 +1,6 @@
 :root {
   --drop-shadow-1: drop-shadow(0 0 2em #646cffaa);
   --drop-shadow-2: drop-shadow(0 0 2em #61dafbaa);
+  --text-shadow: 2px 2px 4px; 
+  --tett-shadow-sm: calc(var(--text-shadow) / 2);
 }

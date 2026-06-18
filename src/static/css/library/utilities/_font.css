@@ -6,7 +6,7 @@
 
 .fine-print { font-size: var(--fs-fine); font-weight: 100; }
 .fs-tiny { font-size: var(--fs-tiny);}
-.fs-sm { font-size: var(--fs-sm)}
+.fs-sm :{ font-size: var(--fs-sm)}
 .fs-md { font-size: var(--fs-md)}
 .fs-lg { font-size: var(--fs-lg)}
 .fs-xl { font-size: var(--fs-xl)}

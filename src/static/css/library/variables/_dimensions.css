@@ -1,6 +1,5 @@
 
-:root {
-   
+:root {   
   --site-width: 100vw;
   --site-height: 100vh;
   --header--width: calc(var(--site-width) - 1rem);

@@ -1,25 +1,35 @@
 
 
 .list:not(.inline) { 
+  --child-margin: 0 auto;
+  --item-pad: 1em;
+  --radius: var(--round-corners);
+  --margin: 0;
+  --pad: 0.5em;
+  border-radius: var(--radius);
   list-style-type: none;
-  margin: 0;
-  padding: 0.5em;
+  margin: var(--margin);
+  padding: var(--pad);
   display: flex;
   flex-direction: column;
   & .item { 
-    padding: 1em;
-    & .text { margin: 0 auto; }
-    & .link { margin: 0 auto; }
-    & .btn { margin: 0 auto; }
+    padding: var(--item-pad);
+    & .text { margin: var(--child-margin) }
+    & .link { margin: var(--child-margin)}
+    & .btn { margin: var(--child-margin)}
   }
 }
 
-.list.inline {
+.list--inline {
+  --margin: 0;
+  --pad: 0.5em;
+  --gap: 3vw;
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  padding: 0.5em;
-  margin: 0;
+  gap: var(--gap);
+  padding: var(--pad);
+  margin: var(--margin);
   & .item { 
     display: inline-block; 
   }
