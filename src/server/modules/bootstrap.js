@@ -15,7 +15,7 @@ class Application {
     plugins.forEach((plug) => { this.server.use(plug) });
     globals.forEach((global) => { this.server.set(global.key, global.value)});
   }
-
+  protocol() { return this.server.get('app.protocol')};
   version() { return this.server.get('app.version')};
   name() { return this.server.get('app.name')};
   host() { return this.server.get('app.host')};

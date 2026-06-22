@@ -2,7 +2,7 @@
 
 
 async function getPosts() {
-  const response = await fetch('http://localhost:4000/api/posts');
+  const response = await fetch('http://127.0.0.1:4000/api/posts');
   const posts = response.json();
   return posts;
 }
