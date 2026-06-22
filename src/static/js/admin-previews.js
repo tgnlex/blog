@@ -8,7 +8,7 @@ async function getPosts() {
 }
 
 async function setupPreviews() {
-  const $posts = document.querySelector('#blog--posts');  
+  const $posts = document.querySelector('#admin--posts');  
   const posts = await getPosts();
   posts.forEach((post) => {
     const $item = document.createElement('li');
@@ -24,7 +24,7 @@ async function setupPreviews() {
       <div id="post-buttons" class="row btn-row">
       <button class="btn btn-read">
         <a class="btn--link" href="/blog/${post.id}">
-        Read post
+        Read
         </a>
       </button>
       <button class="btn btn-edit">

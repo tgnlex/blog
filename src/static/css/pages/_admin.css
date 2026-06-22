@@ -1,6 +1,20 @@
+#admin--title {
+  font-size: 3.2rem;
+  margin-bottom: 0.5em;
+}
+#admin--posts {
+  border: 1px solid white;
+  padding: 2em;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .admin-preview {
-  border: 4px double black;
+  border: 4px double white;
+  border-radius: var(--round-corners);
   width: 24vw;
+  margin: 1em;
 }
 
 .btn-row {
@@ -9,12 +23,17 @@
   & .btn {
     border-radius: var(--round-corners);
     width: 6vw;
+    font-size: 1.1rem;
   }
 
 
 .btn-read {
   background-color: var(--clr--blue--100);
   color: white;
+  & a {
+    color: white;
+    text-decoration: none;
+  }
 }
 
 .btn-edit {

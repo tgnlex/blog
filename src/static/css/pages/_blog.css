@@ -4,7 +4,7 @@
   --title--mt: 0.8rem;
   --title--fs: 3.2em;
   --posts--height: 100%;
-  --posts--width: 90%;
+  --posts--width: 60vw;
   --preview--link--fs: 1.6em;
   --preview--border: 4px double var(--clr--white--100);
   --preview--radius: 0.4rem;
@@ -20,6 +20,7 @@
     color: var(--clr--white--100);
     margin-top: var(--title--mt);
     font-size: var(--title--fs);
+    margin-bottom: 0.5em;
   }
 
   & #blog--posts {
@@ -30,6 +31,8 @@
     border: 2px double var(--clr--white--100);
     height: var(--posts--height);
     width: var(--posts--width);
+    padding: 2em;
+    gap: 3vh;
   }
   & .preview {
    /**  margin-top: var(--preview--mt); **/``
@@ -40,12 +43,13 @@
     display: flex;
     flex-direction: column;
     place-items: center;
+    }
     & .link {
       font-size: var(--preview--link--fs);
-      text-decoration: none;
-
+      text-decoration: none;{
+      color: white;
     }
 }
-}
+
 
 
