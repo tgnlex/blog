@@ -10,6 +10,10 @@ router.get('/blog', (req, res) => {
   res.render('pages/blog')
 })
 
+router.get('/admin', (req, res) => {
+  res.render('pages/admin');
+})
+
 router.get('/blog/:id', async (req, res) => {
   const id = req.params.id;
   const response = await fetch(`http://localhost:4000/api/posts/${id}`);

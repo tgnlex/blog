@@ -1,0 +1,27 @@
+.admin-preview {
+  border: 4px double black;
+  width: 24vw;
+}
+
+.btn-row {
+  margin-top: 2vh;
+  gap: 0.5vw;
+  & .btn {
+    border-radius: var(--round-corners);
+    width: 6vw;
+  }
+
+
+.btn-read {
+  background-color: var(--clr--blue--100);
+  color: white;
+}
+
+.btn-edit {
+  background-color: var(--clr--yellow--080);
+  color: white;
+}
+.btn-delete { 
+  background-color: var(--clr--cherry--100);
+  color: white;
+}

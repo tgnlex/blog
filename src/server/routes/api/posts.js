@@ -1,7 +1,7 @@
 import { Router } from 'express';
 
 const posts = [
-  {id: 1, title: "Post one", description: "The first post", body: "Hello World!"},
+  {id: 1, title: "Post one", description: "The first post", body: "lorem ipsum ipsm lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum lorem iposuj ipsium lorem lorem ipsum ipsum lorem lorem ipsum ipsum lorem"},
   {id: 2, title: "Post two", description: "The second post", body: "This is the second post..."},
   {id: 3, title: "Post three", description: "The third post", body: "This is the third post..."},
 ]
@@ -10,7 +10,7 @@ const posts = [
 const router = Router();
 
 router.get('/', (req, res) => {
-  res.json(posts);
+  res.json(posts)
 });
 
 router.get('/:id', (req, res) => {

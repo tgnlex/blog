@@ -1,10 +1,8 @@
 @import "./library/_index.css";
-@import "./_base.css";
-@import "./_layout.css";
+@import "./globals/_index.css";
 @import "./pages/_index.css";
 
 .main {
-  background-color: var(--clr--black--090);
   width: 60vw;
   height: 100vh;
   display: flex;
@@ -13,8 +11,13 @@
 }
 
 #welcome { 
+  bordeR: 2px solid black;
+  border-radius: var(--round-corners);
+  padding: 0 0.5em;
+
   & h2 {
     font-size: 3.2em;
+    color: black;
   }
 }
 

@@ -6,8 +6,8 @@
 
 {% block main %}
   <main class="article">
-    <h1>{{ post.title }}</h1>
-    <article>
+    <h1 id="article--title" class="text-shadow-blue">{{ post.title }}</h1>
+    <article id="article--content">
       {{ post.body }}
     </article>
 

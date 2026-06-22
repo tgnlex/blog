@@ -3,9 +3,12 @@ import path from 'path';
 import helmet from 'helmet'
 import cors from 'cors';
 
+
+const STATIC = path.join(import.meta.dirname, '../../static');
 const VIEWS = path.resolve('../../views');
+
 const plugins = [
-  express.static('src/static'),
+  express.static(STATIC),
   express.urlencoded({extended: true}),
   express.json(),
   helmet(),

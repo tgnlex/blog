@@ -1,0 +1,28 @@
+.article {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#article--title {
+  --fs: 3.8rem;
+  --mt: 0.5rem;
+  font-size: var(--fs);
+  margin-top: var(--mt);
+}
+
+#article--content { 
+  --text: var(--clr--white--100);
+  --bg: var(--clr--black--100);
+  --max-width: var(--content--width);
+  --pad: 2em;
+  --mt: 1.5em;
+  --radois: 0.4rem;
+  margin-top: var(--mt);
+  max-width: var(--max-width);
+  background-color: var(--bg);
+  color: var(--text);
+  padding: var(--pad);
+  border-radius: var(--borderrade);
+}

@@ -23,6 +23,7 @@
 }
 
 #nav--list {
+  list-style-type:none;
   background-color: var(--clr--rebecca--100);
   display: flex;
   flex-direction: row;
